@@ -378,9 +378,7 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             public PropertyInfo FindIndexerPropertyInfo()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IKey FindKey(IReadOnlyList<IProperty> properties)
                 => throw new NotImplementedException();
@@ -392,9 +390,7 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             public IReadOnlyList<IReadOnlyProperty> FindProperties(IReadOnlyList<string> propertyNames)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IProperty FindProperty(string name)
                 => null;
@@ -406,9 +402,7 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             public ChangeTrackingStrategy GetChangeTrackingStrategy()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IForeignKey> GetDeclaredForeignKeys()
                 => throw new NotImplementedException();
@@ -432,9 +426,7 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlySkipNavigation> GetDeclaredSkipNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IForeignKey> GetDerivedForeignKeys()
                 => throw new NotImplementedException();
@@ -443,29 +435,19 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlyNavigation> GetDerivedNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlyProperty> GetDerivedProperties()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlyServiceProperty> GetDerivedServiceProperties()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlySkipNavigation> GetDerivedSkipNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IReadOnlyEntityType> GetDerivedTypes()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IEntityType> GetDirectlyDerivedTypes()
                 => throw new NotImplementedException();
@@ -485,26 +467,26 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
             public IEnumerable<IKey> GetKeys()
                 => throw new NotImplementedException();
 
+            public PropertyAccessMode GetNavigationAccessMode()
+                => throw new NotImplementedException();
+
             public IEnumerable<INavigation> GetNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IProperty> GetProperties()
                 => throw new NotImplementedException();
 
+            public PropertyAccessMode GetPropertyAccessMode()
+                => throw new NotImplementedException();
+
             public LambdaExpression GetQueryFilter()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IForeignKey> GetReferencingForeignKeys()
                 => throw new NotImplementedException();
 
             public IEnumerable<IDictionary<string, object>> GetSeedData(bool providerValues = false)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             public IEnumerable<IServiceProperty> GetServiceProperties()
                 => throw new NotImplementedException();
@@ -516,28 +498,20 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.FindDeclaredForeignKeys(IReadOnlyList<IReadOnlyProperty> properties)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IReadOnlyNavigation IReadOnlyEntityType.FindDeclaredNavigation(string name)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IReadOnlyProperty IReadOnlyEntityType.FindDeclaredProperty(string name)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IReadOnlyForeignKey IReadOnlyEntityType.FindForeignKey(
                 IReadOnlyList<IReadOnlyProperty> properties, IReadOnlyKey principalKey, IReadOnlyEntityType principalEntityType)
                 => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.FindForeignKeys(IReadOnlyList<IReadOnlyProperty> properties)
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IReadOnlyIndex IReadOnlyEntityType.FindIndex(IReadOnlyList<IReadOnlyProperty> properties)
                 => throw new NotImplementedException();
@@ -561,54 +535,34 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.GetDeclaredForeignKeys()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyIndex> IReadOnlyEntityType.GetDeclaredIndexes()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyKey> IReadOnlyEntityType.GetDeclaredKeys()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyNavigation> IReadOnlyEntityType.GetDeclaredNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyProperty> IReadOnlyEntityType.GetDeclaredProperties()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.GetDeclaredReferencingForeignKeys()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyServiceProperty> IReadOnlyEntityType.GetDeclaredServiceProperties()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.GetDerivedForeignKeys()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyIndex> IReadOnlyEntityType.GetDerivedIndexes()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyEntityType> IReadOnlyEntityType.GetDirectlyDerivedTypes()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.GetForeignKeys()
                 => throw new NotImplementedException();
@@ -620,17 +574,13 @@ namespace Microsoft.EntityFrameworkCore.TestUtilities
                 => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyNavigation> IReadOnlyEntityType.GetNavigations()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyProperty> IReadOnlyEntityType.GetProperties()
                 => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyForeignKey> IReadOnlyEntityType.GetReferencingForeignKeys()
-            {
-                throw new NotImplementedException();
-            }
+                => throw new NotImplementedException();
 
             IEnumerable<IReadOnlyServiceProperty> IReadOnlyEntityType.GetServiceProperties()
                 => throw new NotImplementedException();
