@@ -25,10 +25,9 @@
     <MicrosoftExtensionsDependencyModelVersion>6.0.0</MicrosoftExtensionsDependencyModelVersion>
     <MicrosoftExtensionsHostFactoryResolverSourcesVersion>6.0.0-rtm.21519.16</MicrosoftExtensionsHostFactoryResolverSourcesVersion>
     <MicrosoftExtensionsLoggingVersion>6.0.0</MicrosoftExtensionsLoggingVersion>
-    <XUnitVersion>2.4.2-pre.9</XUnitVersion>
-    <XUnitVersion Condition="'$(IsShippingPackage)' == 'true'">2.4.1</XUnitVersion>
   </PropertyGroup>
   <PropertyGroup Label="Other dependencies">
+    <XunitShippingVersion>2.4.1</XunitShippingVersion>
     <MicrosoftCodeAnalysisVersion>3.7.0</MicrosoftCodeAnalysisVersion>
   </PropertyGroup>
 </Project>

@@ -21,8 +21,8 @@
 
   <ItemGroup>
     <PackageReference Include="NetTopologySuite" Version="2.3.0" />
-    <PackageReference Include="xunit.assert" Version="$(XUnitVersion)" />
-    <PackageReference Include="xunit.core" Version="$(XUnitVersion)" />
+    <PackageReference Include="xunit.assert" Version="$(XunitShippingVersion)" />
+    <PackageReference Include="xunit.core" Version="$(XunitShippingVersion)" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
