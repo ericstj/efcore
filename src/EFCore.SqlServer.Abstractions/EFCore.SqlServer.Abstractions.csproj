@@ -13,6 +13,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>$(PackageTags);SQL Server;HierarchyId</PackageTags>
     <ImplicitUsings>true</ImplicitUsings>
+    <!-- Brand new package - remove in 9.0 -->
+    <DisablePackageBaselineValidation>true</DisablePackageBaselineValidation>
   </PropertyGroup>
 
   <ItemGroup>

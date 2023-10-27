@@ -1,0 +1,9 @@
+<Project>
+  <Import Project="..\Directory.Build.targets" />
+
+  <PropertyGroup>
+    <EnablePackageValidation Condition="'$(IsPackable)' == 'true'">true</EnablePackageValidation>
+    <PackageValidationBaselineVersion Condition="'$(PackageValidationBaselineVersion)' == ''">$(ApiCompatBaselineVersion)</PackageValidationBaselineVersion>
+  </PropertyGroup>
+
+</Project>
